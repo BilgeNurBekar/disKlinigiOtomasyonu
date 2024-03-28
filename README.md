@@ -1,1 +1,8 @@
 # OrtakProje
+
+Projemizde C# form ile bir diş kliniği otomasyonu yapmayı hedefledik.
+Bu projede; var olan bir diş kliniğine hasta kayıt, hasta bilgilerini görüntüleme, randevu alma, randevu güncelleme silme ve yedekleme, tedavi işlemlerini kayıt altına alma ve fiyat güncellemeleri yapma, doktor randevusu oluşturma ve randevuya hasta atama, eksik bilgilerde uyarı verme her hasta için yapılan işlemi görüntüleme, günlük tutar alma ve bunu kasa veritabanına kayıt etme işlemlerini gerçekleştirmektedir. 
+Otomasyonumuz diş kliniğinde çalışanlar, doktorlar ve hastalar için güvenli veri aktarımı sunmaktadır.
+ Projemizin veritabanı için MSSQL; arayüz oluşumu için C# programlama dilini kullandık. C# form projesi ile arayüz gerçekleştirildi. Oluşturulan Veritabanı ve C# bağlantısı gerekli kodlar ile sağlandı. Yönetici ve Kullanıcı(sekreter vs.) için farklı görüntüleme özellikleri atandı. Sisteme iki türlü giriş sağlanabilmektedir bunlar; kullanıcı girişi ve yönetici girişi girişidir. Kullanıcı girişinde; hasta kaydı oluşturma, hastanın bilgilerini görüntüleme, kullanıcının randevu seçme ekranı, tüm randevuların listesi, tedavi ekranı ve bu ekranda bulunan ücret hesaplama ve kasa ekranına erişebilirken yönetici girişinde ise yöneticinin doktor ve personel ekleyebileceği sayfaları ayrıca bulunmaktadır. 
+Projeyi kullanacak olan diş kliniği çalışanları için kolay anlaşılır karışık olmayan bir arayüz tasarımı gerçekleştirdik. 
+Projemiz yedi .cs dosyasından oluşmaktadır. Giriş ekranı, yönetim paneli, ana sayfa, randevu ekranı, tedavi ekranı, kasa ekranı, doktor randevu ekleme paneli şeklindedir.
