@@ -1,4 +1,4 @@
-# OrtakProje
+# Diş Kliniği Projesi 🦷 👾
 
 Projemizde C# form ile bir diş kliniği otomasyonu yapmayı hedefledik.
 Bu projede; var olan bir diş kliniğine hasta kayıt, hasta bilgilerini görüntüleme, randevu alma, randevu güncelleme silme ve yedekleme, tedavi işlemlerini kayıt altına alma ve fiyat güncellemeleri yapma, doktor randevusu oluşturma ve randevuya hasta atama, eksik bilgilerde uyarı verme her hasta için yapılan işlemi görüntüleme, günlük tutar alma ve bunu kasa veritabanına kayıt etme işlemlerini gerçekleştirmektedir. 
